@@ -1,9 +1,9 @@
-function calculadoraSuma(operacion, op1, op2) {
+function calculadoraSuma(operacion, op1, op2, op3) {
 
     let resultadoSuma;
 
     if (operacion == "sum") {
-        resultadoSuma = op1 + op2
+        resultadoSuma = op1 + op2 + op3
     }
 
     return resultadoSuma
