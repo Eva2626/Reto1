@@ -1,3 +1,14 @@
+function calculadoraSuma(operacion, op1, op2, op3) {
+
+    let resultadoSuma;
+
+    if (operacion == "sum") {
+        resultadoSuma = op1 + op2 + op3
+    }
+
+    return resultadoSuma
+}
+
 
 
 function calculadoraResta(operacion, op1, op2) {
